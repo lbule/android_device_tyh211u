@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_AURORA.mk
+    $(LOCAL_DIR)/twrp_AURORA.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_AURORA-user \
-    omni_AURORA-userdebug \
-    omni_AURORA-eng
+    twrp_AURORA-user \
+    twrp_AURORA-userdebug \
+    twrp_AURORA-eng
