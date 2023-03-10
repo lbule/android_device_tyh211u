@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from AURORA device
 $(call inherit-product, device/chinatelecom/AURORA/device.mk)
 
 PRODUCT_DEVICE := AURORA
-PRODUCT_NAME := omni_AURORA
+PRODUCT_NAME := twrp_AURORA
 PRODUCT_BRAND := Tianyi1Hao2021
 PRODUCT_MODEL := TYH211U
 PRODUCT_MANUFACTURER := chinatelecom
