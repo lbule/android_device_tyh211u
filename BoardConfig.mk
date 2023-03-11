@@ -106,6 +106,7 @@ TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_RESETPROP := true
+TW_INCLUDE_FASTBOOTD := false
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/backlight/backlight/sprd_backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
