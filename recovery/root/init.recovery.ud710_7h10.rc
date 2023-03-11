@@ -1,4 +1,7 @@
 #add for board init.rc for recovery mode
 
 on boot
+    mount /socko
+    insmod /socko/synaptics_dsx_td4310.ko
+    insmod /socko/synaptics_td4320_spi_ts.ko
     setprop sys.usb.config adb
