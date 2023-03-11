@@ -1,7 +1,10 @@
-#add for board init.rc for recovery mode
+on fs
+    wait /dev/block/by-name/
+    start load_modules
 
-on boot
-    mount /socko
-    insmod /socko/synaptics_dsx_td4310.ko
-    insmod /socko/synaptics_td4320_spi_ts.ko
-    setprop sys.usb.config adb
+service load_modules /system/bin/load_modules.sh
+    oneshot
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
