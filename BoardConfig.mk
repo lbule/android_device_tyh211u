@@ -118,6 +118,7 @@ TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/backlight/backlight/sprd_backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 64
+TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_TWRPAPP := true
 TW_Y_OFFSET := 78
