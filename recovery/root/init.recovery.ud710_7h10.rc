@@ -1,5 +1,4 @@
-on fs
-    wait /dev/block/platform/soc/soc:ap-apb/71400000.sdio/
+on boot
     start load_modules
 
 service load_modules /system/bin/load_modules.sh
