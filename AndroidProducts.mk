@@ -9,6 +9,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_AURORA.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_AURORA-user \
-    twrp_AURORA-userdebug \
     twrp_AURORA-eng
