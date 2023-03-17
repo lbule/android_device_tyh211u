@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-LOCAL_PATH := device/chinatelecom/AURORA
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 # Dynamic Partitions
@@ -23,8 +22,3 @@ PRODUCT_NAME := twrp_AURORA
 PRODUCT_BRAND := Tianyi1Hao2021
 PRODUCT_MODEL := TYH211U
 PRODUCT_MANUFACTURER := chinatelecom
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ud710_7h10_ctcc-user 10 QP1A.190711.020 47316 release-keys"
-
-BUILD_FINGERPRINT := Tianyi1Hao2021/ud710_7h10_ctcc/ud710_7h10:10/QP1A.190711.020/47316:user/release-keys
