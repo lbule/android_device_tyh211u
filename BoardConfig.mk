@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/chinatelecom/AURORA
+DEVICE_PATH := device/ctcc/tyh211u
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
