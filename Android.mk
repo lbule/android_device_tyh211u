@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),AURORA)
+ifeq ($(TARGET_DEVICE),tyh211u)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
