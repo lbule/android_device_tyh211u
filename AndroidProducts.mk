@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_AURORA.mk
+    $(LOCAL_DIR)/twrp_tyh211u.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_AURORA-eng
+    twrp_tyh211u-eng
